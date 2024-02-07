@@ -63,7 +63,7 @@ class _SigninScreenState extends State<SigninScreen> {
                         'Log in with Google',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 16,
+                          fontSize: 15,
                         ),
                       ),
                     ],
@@ -99,7 +99,7 @@ class _SigninScreenState extends State<SigninScreen> {
                         'Log in with Facebook',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 16,
+                          fontSize: 15,
                         ),
                       ),
                     ],
@@ -193,7 +193,7 @@ class _SigninScreenState extends State<SigninScreen> {
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 16,
+                        fontSize: 15,
                       ),
                     ),
                   ),
@@ -214,7 +214,7 @@ class _SigninScreenState extends State<SigninScreen> {
                       style: TextStyle(
                         color: Colors.blueAccent[700],
                         fontWeight: FontWeight.bold,
-                        fontSize: 16,
+                        fontSize: 15,
                       ),
                     ),
                   ),
