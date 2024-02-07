@@ -1,6 +1,7 @@
 import 'package:e_learning_ui/Screens/onboarding.dart';
 import 'package:e_learning_ui/Screens/sign_in.dart';
 import 'package:e_learning_ui/Screens/sign_up.dart';
+import 'package:e_learning_ui/Screens/sign_up_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -161,20 +162,26 @@ class ScreenSelecter extends StatelessWidget {
                 child: Row(
                   children: [
                     Expanded(
-                      child: Container(
-                        height: 50,
-                        width: double.infinity,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(16),
-                          color: Colors.amber,
-                        ),
-                        child: const Center(
-                          child: Text(
-                            'Sign Up / Form',
-                            style: TextStyle(
-                              fontSize: 12,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const SignupformScreen()));
+                        },
+                        child: Container(
+                          height: 50,
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16),
+                            color: Colors.amber,
+                          ),
+                          child: const Center(
+                            child: Text(
+                              'Sign Up / Form',
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black,
+                              ),
                             ),
                           ),
                         ),
