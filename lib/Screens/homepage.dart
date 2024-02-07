@@ -184,6 +184,256 @@ class HomePageScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+                const SizedBox(
+                  height: 24,
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        height: 280,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(4),
+                          color: const Color(0XFFF3F4F6),
+                        ),
+                        child: Column(
+                          children: [
+                            Stack(
+                              children: [
+                                Container(
+                                  height: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(4),
+                                    color: Colors.amberAccent,
+                                  ),
+                                  child: ClipRRect(
+                                    borderRadius: const BorderRadius.only(
+                                      topRight: Radius.circular(8),
+                                      topLeft: Radius.circular(8),
+                                    ),
+                                    child: Image.asset(
+                                      "assets/images/lptp3.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  child: Container(
+                                    height: 25,
+                                    width: 50,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      color: Colors.deepOrangeAccent,
+                                    ),
+                                    child: const Center(
+                                      child: Text(
+                                        "HOT",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 16,
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "HTML, CSS for noob and nerds!",
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 4,
+                                  ),
+                                  Text(
+                                    "Sayef Mamud",
+                                    style: TextStyle(
+                                      fontSize: 13,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 4,
+                                  ),
+                                  Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.amber,
+                                      ),
+                                      SizedBox(
+                                        width: 4,
+                                      ),
+                                      Text(
+                                        "4.5",
+                                        style: TextStyle(
+                                          color: Colors.black54,
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                      Spacer(),
+                                      Text(
+                                        "(4051)",
+                                        style: TextStyle(
+                                          color: Colors.black54,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const Spacer(),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      width: 8,
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 280,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(4),
+                          color: const Color(0XFFF3F4F6),
+                        ),
+                        child: Column(
+                          children: [
+                            Stack(
+                              children: [
+                                Container(
+                                  height: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(4),
+                                    color: Colors.amberAccent,
+                                  ),
+                                  child: ClipRRect(
+                                    borderRadius: const BorderRadius.only(
+                                      topRight: Radius.circular(8),
+                                      topLeft: Radius.circular(8),
+                                    ),
+                                    child: Image.asset(
+                                      "assets/images/intrr.jpg",
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  child: Container(
+                                    height: 25,
+                                    width: 50,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      color: Colors.deepOrangeAccent,
+                                    ),
+                                    child: const Center(
+                                      child: Text(
+                                        "NEW",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            const Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "A modern interior design for you!",
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 4,
+                                  ),
+                                  Text(
+                                    "Samantha Rossye",
+                                    style: TextStyle(
+                                      fontSize: 13,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 4,
+                                  ),
+                                  Padding(
+                                    padding: EdgeInsets.only(
+                                      right: 16,
+                                    ),
+                                    child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.star,
+                                          color: Colors.amber,
+                                        ),
+                                        SizedBox(
+                                          width: 4,
+                                        ),
+                                        Text(
+                                          "4.5",
+                                          style: TextStyle(
+                                            color: Colors.black54,
+                                            fontSize: 13,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Text(
+                                          "(4051)",
+                                          style: TextStyle(
+                                            color: Colors.black54,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const Spacer(),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 200,
+                ),
               ],
             ),
           ],
