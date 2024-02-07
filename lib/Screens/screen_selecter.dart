@@ -1,6 +1,7 @@
 import 'package:e_learning_ui/Screens/forgot_password1.dart';
 import 'package:e_learning_ui/Screens/forgot_password3.dart';
 import 'package:e_learning_ui/Screens/forgot_password2.dart';
+import 'package:e_learning_ui/Screens/homepage.dart';
 import 'package:e_learning_ui/Screens/onboarding.dart';
 import 'package:e_learning_ui/Screens/sign_in.dart';
 import 'package:e_learning_ui/Screens/sign_up.dart';
@@ -65,6 +66,10 @@ class ScreenSelecter extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(
+                height: 8,
+              ),
+              const Divider(),
               const SizedBox(
                 height: 8,
               ),
@@ -196,6 +201,10 @@ class ScreenSelecter extends StatelessWidget {
               const SizedBox(
                 height: 8,
               ),
+              const Divider(),
+              const SizedBox(
+                height: 8,
+              ),
               Container(
                 height: 50,
                 width: double.infinity,
@@ -319,6 +328,43 @@ class ScreenSelecter extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+              ),
+              const SizedBox(
+                height: 8,
+              ),
+              const Divider(),
+              const SizedBox(
+                height: 8,
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const HomePageScreen()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                  ),
+                  child: Container(
+                    height: 50,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16),
+                      color: Colors.amber,
+                    ),
+                    child: const Center(
+                      child: Text(
+                        'Home',
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
