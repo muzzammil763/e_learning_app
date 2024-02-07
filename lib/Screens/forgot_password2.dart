@@ -94,7 +94,7 @@ class FP2Screen extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
-            Spacer(),
+            const Spacer(),
           ],
         ),
       ),
