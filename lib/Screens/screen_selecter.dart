@@ -1,3 +1,4 @@
+import 'package:e_learning_ui/Screens/forgot_password1.dart';
 import 'package:e_learning_ui/Screens/onboarding.dart';
 import 'package:e_learning_ui/Screens/sign_in.dart';
 import 'package:e_learning_ui/Screens/sign_up.dart';
@@ -222,20 +223,26 @@ class ScreenSelecter extends StatelessWidget {
                 child: Row(
                   children: [
                     Expanded(
-                      child: Container(
-                        height: 50,
-                        width: double.infinity,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(16),
-                          color: Colors.amber,
-                        ),
-                        child: const Center(
-                          child: Text(
-                            "FP 1",
-                            style: TextStyle(
-                              fontSize: 12,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const FP1Screen()));
+                        },
+                        child: Container(
+                          height: 50,
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16),
+                            color: Colors.amber,
+                          ),
+                          child: const Center(
+                            child: Text(
+                              "FP 1",
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black,
+                              ),
                             ),
                           ),
                         ),
