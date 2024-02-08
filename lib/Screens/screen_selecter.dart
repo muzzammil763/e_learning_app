@@ -9,6 +9,7 @@ import 'package:e_learning_ui/Screens/search_result.dart';
 import 'package:e_learning_ui/Screens/sign_in.dart';
 import 'package:e_learning_ui/Screens/sign_up.dart';
 import 'package:e_learning_ui/Screens/sign_up_form.dart';
+import 'package:e_learning_ui/Screens/teachers_detail.dart';
 import 'package:flutter/material.dart';
 
 class ScreenSelecter extends StatelessWidget {
@@ -509,7 +510,7 @@ class ScreenSelecter extends StatelessWidget {
                 InkWell(
                   onTap: () {
                     Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const HomePageScreen()));
+                        builder: (context) => const TeachersDetailScreen()));
                   },
                   child: Container(
                     height: 50,
