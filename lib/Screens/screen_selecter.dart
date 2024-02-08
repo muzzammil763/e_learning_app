@@ -115,7 +115,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -144,7 +144,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -184,7 +184,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -248,7 +248,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -277,7 +277,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -316,7 +316,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -411,7 +411,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -441,7 +441,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
@@ -481,7 +481,7 @@ class ScreenSelecter extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.amber,
+                              color: Colors.amberAccent,
                             ),
                             child: const Center(
                               child: Text(
