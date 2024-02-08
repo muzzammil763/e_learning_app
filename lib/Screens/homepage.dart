@@ -590,6 +590,7 @@ class HomePageScreen extends StatelessWidget {
                                 children: [
                                   Container(
                                     height: 150,
+                                    width: double.infinity,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(4),
                                       color: Colors.amberAccent,
@@ -600,7 +601,7 @@ class HomePageScreen extends StatelessWidget {
                                         topLeft: Radius.circular(8),
                                       ),
                                       child: Image.asset(
-                                        "assets/images/lptp3.jpg",
+                                        "assets/images/homeplants.jpg",
                                         fit: BoxFit.cover,
                                       ),
                                     ),
@@ -719,7 +720,7 @@ class HomePageScreen extends StatelessWidget {
                                         topLeft: Radius.circular(8),
                                       ),
                                       child: Image.asset(
-                                        "assets/images/intrr.jpg",
+                                        "assets/images/lptp2.jpg",
                                         fit: BoxFit.cover,
                                       ),
                                     ),
@@ -820,7 +821,282 @@ class HomePageScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    height: 232,
+                    height: 32,
+                  ),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      const Text(
+                        "What others are\nwatching in app",
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const Spacer(),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "See more",
+                          style: TextStyle(
+                            color: Colors.blueAccent[700],
+                            fontSize: 13,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 32,
+                  ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Container(
+                          height: 280,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(4),
+                            color: const Color(0XFFF3F4F6),
+                          ),
+                          child: Column(
+                            children: [
+                              Stack(
+                                children: [
+                                  Container(
+                                    height: 150,
+                                    width: double.infinity,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      color: Colors.amberAccent,
+                                    ),
+                                    child: ClipRRect(
+                                      borderRadius: const BorderRadius.only(
+                                        topRight: Radius.circular(8),
+                                        topLeft: Radius.circular(8),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/images/homeplants.jpg",
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 12,
+                                    top: 12,
+                                    child: Container(
+                                      height: 25,
+                                      width: 75,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(4),
+                                        color: Colors.deepOrangeAccent,
+                                      ),
+                                      child: const Center(
+                                        child: Text(
+                                          "Best Sell",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const Spacer(),
+                              const Padding(
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 16,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Take care your home plants",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      height: 4,
+                                    ),
+                                    Text(
+                                      "Sarrah Maningger",
+                                      style: TextStyle(
+                                        fontSize: 13,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      height: 4,
+                                    ),
+                                    Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.star,
+                                          color: Colors.amber,
+                                        ),
+                                        SizedBox(
+                                          width: 4,
+                                        ),
+                                        Text(
+                                          "4.4",
+                                          style: TextStyle(
+                                            color: Colors.black54,
+                                            fontSize: 13,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Text(
+                                          "(7054)",
+                                          style: TextStyle(
+                                            color: Colors.black54,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              const Spacer(),
+                            ],
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 8,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 280,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(4),
+                            color: const Color(0XFFF3F4F6),
+                          ),
+                          child: Column(
+                            children: [
+                              Stack(
+                                children: [
+                                  Container(
+                                    height: 150,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      color: Colors.amberAccent,
+                                    ),
+                                    child: ClipRRect(
+                                      borderRadius: const BorderRadius.only(
+                                        topRight: Radius.circular(8),
+                                        topLeft: Radius.circular(8),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/images/lptp2.jpg",
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 12,
+                                    top: 12,
+                                    child: Container(
+                                      height: 25,
+                                      width: 50,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(4),
+                                        color: Colors.deepOrangeAccent,
+                                      ),
+                                      child: const Center(
+                                        child: Text(
+                                          "NEW",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const Spacer(),
+                              const Padding(
+                                padding: EdgeInsets.only(
+                                  left: 16,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Grow your business with Insta!",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      height: 4,
+                                    ),
+                                    Text(
+                                      "Samantha Rossye",
+                                      style: TextStyle(
+                                        fontSize: 13,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      height: 4,
+                                    ),
+                                    Padding(
+                                      padding: EdgeInsets.only(
+                                        right: 16,
+                                      ),
+                                      child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.amber,
+                                          ),
+                                          SizedBox(
+                                            width: 4,
+                                          ),
+                                          Text(
+                                            "4.7",
+                                            style: TextStyle(
+                                              color: Colors.black54,
+                                              fontSize: 13,
+                                            ),
+                                          ),
+                                          Spacer(),
+                                          Text(
+                                            "(643)",
+                                            style: TextStyle(
+                                              color: Colors.black54,
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              const Spacer(),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 64,
                   ),
                 ],
               ),
